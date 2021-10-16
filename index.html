@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+    
+        <div>
+            <p>
+                Select theme
+            <select>
+                <option value="default">White</option>
+                <option value="red" id="btn-red">Red</option>
+                <option value="green" id="btn-green">Green</option>
+                <option value="blue" id="btn-blue">Blue</option>
+                <option value="black" id="btn-black">Black</option>
+            </select>
+            </p>
+        </div>
+        <h1>This is my website</h1>
+
+        <div>
+            <p>
+                Select the weather type today
+            <select onchange="cuaca(value)">
+                <option value="Sunny">Sunny</option>
+                <option value="Rainy">Rainy</option>
+            </select>
+        </p>
+        <p id="weather"> It's nice and sunny outside today. wear shorts! Go to the beach, or the park, and get some ice cream</p>
+        </div>
+
+        <div>
+            <p>
+                Input number:
+                <input type="text" name="t1" id="number">
+                <input type="button" value="Submit" onclick="factorial()">
+            </p>
+            <p id=hasil> </p>
+            
+        </div>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
