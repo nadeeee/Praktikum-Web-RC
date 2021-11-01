@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,UADM,CACN,EAAE,CAAA;EACE,WAAW,EAAE,qBAAqB;EAClC,WAAW,EAAE,GAAG;CACnB;;AAGL,AAAA,SAAS,CAAA;EACL,WAAW,EAAE,qBAAqB;EAClC,WAAW,EAAE,GAAG;CACnB;;AAED,AAAA,MAAM,CAAA;EACF,WAAW,EAAE,qBAAqB;EAClC,WAAW,EAAE,GAAG;CACnB",
+    "sources": [
+        "simple.scss"
+    ],
+    "names": [],
+    "file": "simple.css"
+}
