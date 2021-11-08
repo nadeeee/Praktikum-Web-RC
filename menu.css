@@ -1,0 +1,81 @@
+body{
+    
+    background-color: #FAD0C9 ;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    padding: 30px;
+}
+.card {
+    display: flex;
+    justify-content: space-between;
+    max-width: 960px;
+    margin: auto;
+  }
+  .card-plan {
+    flex: 1;
+    background-color: #ffffff;
+    margin: 20% 8px;
+    padding: 80px 40px 80px 40px;
+    border-radius: 6px;
+    color: rgb(0, 0, 0);
+  }
+   .card li a{
+       text-decoration: none;
+       font-size: 30px;
+       color: #6E6E6D;
+   }
+   .card * {
+    display: inline;
+  }
+  .card-plan img {
+    width: 60%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+
+    padding-bottom: 90px;
+    height: auto;
+
+  }
+  .card-plan img .image2{
+      width: 150px;
+      height: auto;
+  }
+
+  .card-plan:hover{ /* when mouse hover over card table */
+    transform: scale(1.05);
+    transition: all .5s;
+    z-index: 100;
+    box-shadow: 0 0 10px gray;
+  }
+  @media (min-width: 1025px) {
+    .header {
+      justify-content: space-between;
+    }
+    .card{
+      justify-content: center;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .card-plan * {
+        text-align: center ;
+        display: block ;
+        flex-direction: row ;
+        
+    }
+    .card-plan {
+        padding: 20px;
+
+    }
+
+ .card-plan img {
+   width: 75px;
+   padding-bottom: 80px;
+   height: auto fit-content;
+
+ }
+   .card{
+       padding-top: 150px; 
+   }
+}
