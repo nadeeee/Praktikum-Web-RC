@@ -15,6 +15,15 @@ jangan lupa tambahkan hasil screenshoot web di dalam file
 
 ### Tambahkan identitas dasar di sini: 
 
-Nama  :
+Nama  : Auriga Farhan R
 <br>
-NIM   :
+NIM   : 119140153
+
+Modifikasi 
+
+1. Mengubah Tampilan Login page dan Menambahkan register page
+2. Menambahkan fitur logout
+3. Mengubah tampilan Homepage
+4. Menambahkan fitur clear history
+5. Merapihkan kode dengan menggunakan css dan js external
+
